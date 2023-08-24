@@ -1,0 +1,25 @@
+html{
+    background-image: linear-gradient(to right, rgba(185, 214, 238, 0.473), rgb(53, 147, 175));
+    
+}
+h1
+{
+    font-family: 'Courier New', Courier, monospace;
+    padding-top: 3%;
+    text-align: center;
+   
+}
+li
+{
+    padding-top: 10px;
+}
+#videotext
+{
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   padding-bottom: 35px;
+}
+div
+{
+    
+    text-align: center;
+}
