@@ -17,10 +17,35 @@
     <h1>Coding Experience</h1><br>
 
 <p>
+    The rendering pipeline uses uv coordinates to map textures to 3d models. <br>
+    Here are the texturemaps for the two soldier types and the terrain.
+    
+    <br>
     <img src="soldier.png" alt="texture layout" width="100" height=" 100">
     <img src="soldier2.png" alt="texture layout" width="100" height=" 100">
-    <img src="Terrain.png" alt="texture layout" width="100" height=" 100">
-    <img src="Errorlogger.png" alt="texture layout" width="100" height=" 100">
+    <img src="Terrain.png" alt="texture layout" width="100" height=" 100"> <br>
+    
+  
+    This is my debugging tool, it allows me to add a comment during the runtime of my code. <br>
+    Currently it imforms me if the .obj models i import get imported correctly and instantiated. <br>
+    the syntax is very simple: <br>
+    
+    HRESULT hr; <br>
+	hr = m.Import("platoon.obj"); <br>
+
+    if (FAILED(hr)) <br>
+	{ <br>
+		deb.InfoLogg("Importing Platoon Failed", "Failed Importing"); <br>
+	} <br>
+	else <br>
+	{ <br>
+		deb.InfoLogg("Imported Platoon", "Importing Sucessfull"); <br>
+	} <br>
+
+
+   
+    <br>
+    <img src="Errorlogger.png" alt="texture layout" width="500" height=" 300">
 </p>
 
     <h2>My directx11 c++ Engine</h2><br>
@@ -35,7 +60,7 @@
     <p>
 
     </p>
-     <a href="../../index.html"> Return</a>
+    <a href="../../index.html"> Return</a>
     
 </body>
 </html>
